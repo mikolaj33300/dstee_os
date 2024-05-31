@@ -7,4 +7,5 @@ Dit is de versie van OP-TEE OS met DS-TEE en aanpassingen hiervoor aan:
 -abort.h  
 -plat-vexpress/main.c  
 -mk/config.mk  
-Om de attestatie correct op de dstee TA te doen verlopen moet het taskset commando op QEMU beschikbaar zijn om de handlers en de TA op dezelfde core te laten uitvoeren  
+Om de attestatie correct op de DSTEE TA te doen verlopen zou het "taskset" commando op QEMU gebruikt kunnen worden om TA op dezelfde core te laten uitvoeren als de attestatie in de interrupt handlers.
+
